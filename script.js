@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const API_BASE = "http://127.0.0.1:8001"; // must match the FastAPI backend
+  const API_BASE = "https://mentalhealth-predication-mlmodel-1.onrender.com"; // must match the FastAPI backend
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
